@@ -16,16 +16,17 @@ body {
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Create 5 columns */
+    gap: 20px;
     align-items: start;
 }
 
 .rounded-rectangle {
     width: 416px; /* Adjust the width as needed */
-    height: 465px; /* Specify the height to make border-radius work */
+    height: 495px; /* Specify the height to make border-radius work */
     background-color: #yourRectangleColor;
-    border-radius: 100px; /* Adjust this value for the desired roundness */
+    border-radius: 75px; /* Adjust this value for the desired roundness */
     padding: 5px;
     margin: 25px; /* Add some margin to separate the rectangles */
     margin-top: 50px; /* Add spacing from the top (adjust the value as needed) */
