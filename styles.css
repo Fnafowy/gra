@@ -6,13 +6,25 @@
 }
 
 body {
-    font-family: 'Your Font', sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     background-color: #000000; /* Black background */
-    color: #yourTextColor;
+    color: rgb(255 255 255);
     display: flex;
-    justify-content:center;
-    flex-direction:row;
+    justify-content: center;
+    flex-direction: row;
     height: 100vh;
+}
+
+.header {
+    margin: 20      px 0; /* Add margin above and below the header */
+}
+
+h1 {
+    display:flex;
+    flex-direction: row;
+    justify-content:center; 
+    font-size: 78px; /* Customize the font size */
+    margin-bottom: 10px; /* Add margin below the text */
 }
 
 .container {
@@ -26,7 +38,7 @@ body {
     width: 416px; /* Adjust the width as needed */
     height: 495px; /* Specify the height to make border-radius work */
     background-color: #yourRectangleColor;
-    border-radius: 75px; /* Adjust this value for the desired roundness */
+    border-radius: 50px; /* Adjust this value for the desired roundness */
     padding: 5px;
     margin: 25px; /* Add some margin to separate the rectangles */
     margin-top: 50px; /* Add spacing from the top (adjust the value as needed) */
