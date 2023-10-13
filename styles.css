@@ -1,0 +1,43 @@
+/* Reset some default styles and apply your design */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Your Font', sans-serif;
+    background-color: #000000; /* Black background */
+    color: #yourTextColor;
+    display: flex;
+    justify-content:center;
+    flex-direction:row;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.rounded-rectangle {
+    width: 416px; /* Adjust the width as needed */
+    height: 465px; /* Specify the height to make border-radius work */
+    background-color: #yourRectangleColor;
+    border-radius: 100px; /* Adjust this value for the desired roundness */
+    padding: 5px;
+    margin: 25px; /* Add some margin to separate the rectangles */
+    margin-top: 50px; /* Add spacing from the top (adjust the value as needed) */
+    transition: box-shadow 0.3s, transform 0.4s; /* Add a smooth transition effect */
+}
+
+    .rounded-rectangle:hover {
+        box-shadow: 0 0 20px rgb(255 255 255); /* White glow effect on hover */
+        transform: scale(1.03); /* Slight enlargement on hover (adjust the scale factor as needed) */
+    }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
